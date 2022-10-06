@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title></title>
+</head>
+<style type="text/css">
+    body{
+        background-image: url("back.jpg");
+    }
+    .column1{
+        width: 30%;
+        float: left;
+        padding-left: 10%;
+        padding-top: 10%;
+        padding-bottom: 10px;
+        display: flex;
+        height: auto;
+
+    }
+    .column2{
+        width: 40%;
+        float: right;
+        padding-right: 10%;
+        padding-top: 10%;
+        
+    }
+    .image1{
+        width: 600px;
+        height: 450px;
+    }
+    .h1{
+        padding-left: 20%;
+    }
+    .h4{
+        padding-left: 23%;
+    }
+    #name{
+        width: 70%;
+        color: lightgrey;
+        padding: 10px 20px;
+        border: none;
+        border-bottom: 5px solid lightgrey;
+       
+    }
+    
+    #email{
+        width: 70%;
+        color: lightgrey;
+        padding: 10px 20px;
+        border: none;
+        border-bottom: 5px solid lightgrey;
+        
+    }
+    #message{
+        width: 70%;
+        background-color: lightgrey;
+        height: 200%;
+        padding: 20px 20px;
+        border: none;
+    }
+    .submit{
+       padding: 14px 40px;
+       border: none;
+       background-color: lightgrey;
+        text-align: center;
+        border-radius: 70px;
+        color: black;
+        margin-left: 150px;
+
+    }
+
+</style>
+<body>
+<section >
+    <div class="container">
+        <div class="row">
+            <div class="column1">
+                <img class="image1" src="contact.jpg" >
+            </div>
+            <div class="column2" >
+            <form>
+                <h1 class="h1" ><b>Contact Us</b></h1>
+                <h4 class="h4"><b>Let's talk!</b></h4>
+                
+                           
+                <p><input type="text" id="name" name="name" placeholder="Your name" class="text1" required></p>
+                
+                
+                <p><input type="email" id="email" name="email" placeholder="Your email address" class="email" required></p>
+                
+
+                <p><textarea id="message" name="message" placeholder="Your message here" class="message" required></textarea></p>
+                <br>
+
+                <p><button class="submit" style="text-align:center" >send mesasage</button>
+                
+            </form>
+            </div>
+        
+        </div>
+    </div>
+   
+</section>
+</body>
+</html>
